@@ -8,6 +8,7 @@ apply plugin: 'kotlin-android-extensions'
 //apply plugin: 'maven-publish'
 //
 //group = 'com.github.SubodhKumar1111996'
+
 apply plugin: 'com.github.dcendents.android-maven'
 
 repositories {
@@ -59,6 +60,7 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test:runner:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.1'
+
 }
 task sourcesJar(type: Jar) {
     classifier = 'sources'
@@ -84,3 +86,5 @@ artifacts {
     archives javadocJar
     archives sourcesJar
 }
+apply plugin: 'android-library'
+apply plugin: 'android-maven'
