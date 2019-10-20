@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="lime_green">#3CE702</color>
+    <color name="green">#27B600</color>
+    <color name="wheat">#F5DEB3</color>
+    <color name="sandy_brown">#F4A460</color>
+    <color name="pink">#FFC0CB</color>
+    <color name="light_pink">#FFB6C1</color>
+    <color name="dark_violet">#9400D3</color>
+    <color name="mediumPurple">#9370DB</color>
+    <color name="tomato">#FF6347</color>
+    <color name="orange_red">#FF4500</color>
+</resources>
