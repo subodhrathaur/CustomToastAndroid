@@ -15,7 +15,7 @@ import android.widget.Toast
 
 import com.android.subodhtoast.R
 
-class CustomToast(context: Context) : Toast(context) {
+public class CustomToast(context: Context) : Toast(context) {
    public companion object {
 
        public var SUCCESS = 1
@@ -25,7 +25,7 @@ class CustomToast(context: Context) : Toast(context) {
        public var DEFAULT = 5
        public var CONFUSING = 6
 
-        fun makeText(
+       public fun makeText(
             context: Context,
             message: String,
             duration: Int,
@@ -69,7 +69,7 @@ class CustomToast(context: Context) : Toast(context) {
         }
 
 
-        fun makeText(
+       public fun makeText(
             context: Context,
             message: String,
             duration: Int,
@@ -78,6 +78,7 @@ class CustomToast(context: Context) : Toast(context) {
             androidIcon: Boolean
         ): Toast {
             val toast = Toast(context)
+           toast.duration = duration
             val layout = LayoutInflater.from(context).inflate(R.layout.customtoast, null, false)
             val l1 = layout.findViewById<View>(R.id.toast_text) as TextView
             val linearLayout = layout.findViewById<View>(R.id.toast_type) as LinearLayout
