@@ -14,6 +14,16 @@ buildscript {
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
     }
+    project.ext {
+        mavDevelopers = ["Fe":"Federico"]
+        mavSiteUrl = "https://github.com/sky-uk/gradle-maven-plugin"
+        mavGitUrl = mavSiteUrl + '.git'
+        mavProjectName = 'GradleMavenizer'
+        mavPublishToInternalRepo = true
+        mavRepoInternalUrl = "path/to/internal/repo"
+        mavLibraryLicenses = ["Apache-2.0":'http://www.apache.org/licenses/LICENSE-2.0.txt']
+        mavLibraryDescription = "A simple description of the project"
+    }
 }
 
 allprojects {
