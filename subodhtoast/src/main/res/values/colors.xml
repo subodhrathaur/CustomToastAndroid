@@ -10,4 +10,7 @@
     <color name="mediumPurple">#9370DB</color>
     <color name="tomato">#FF6347</color>
     <color name="orange_red">#FF4500</color>
+    <color name="white">#ffffff</color>
+    <color name="light_black">#474646</color>
+    <color name="black">#000000</color>
 </resources>
