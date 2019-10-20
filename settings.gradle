@@ -1,3 +1,1 @@
 include ':app', ':subodhtoast'
-//rootProject.name='CustomToast'
-//project (':subodhtoast').projectDir=new File('/home/subodh/Documents/Android Project/CustomToast/subodhtoast')

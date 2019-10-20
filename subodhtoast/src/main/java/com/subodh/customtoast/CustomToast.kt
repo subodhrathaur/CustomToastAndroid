@@ -16,14 +16,14 @@ import android.widget.Toast
 import com.android.subodhtoast.R
 
 class CustomToast(context: Context) : Toast(context) {
-    companion object {
+   public companion object {
 
-        var SUCCESS = 1
-        var WARNING = 2
-        var ERROR = 3
-        var INFO = 4
-        var DEFAULT = 5
-        var CONFUSING = 6
+       public var SUCCESS = 1
+       public var WARNING = 2
+       public var ERROR = 3
+       public var INFO = 4
+       public var DEFAULT = 5
+       public var CONFUSING = 6
 
         fun makeText(
             context: Context,
