@@ -1,44 +1,12 @@
 apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
-apply plugin: 'com.github.dcendents.android-maven'
+//apply plugin: 'com.github.dcendents.android-maven'
+//group = 'com.github.SubodhKumar1111996'
+apply plugin: 'maven-publish'
+
 group = 'com.github.SubodhKumar1111996'
 
-ext {
-    bintrayRepo = 'maven'
-    bintrayName = 'test-sdk'
-
-    publishedGroupId = 'in.test.sdk'
-    libraryName = 'testlib'
-    artifact = 'test-sdk'
-
-    /*
-    project.ext {
-        mavDevelopers = ["Fe":"Federico"]
-        mavSiteUrl = "https://github.com/sky-uk/gradle-maven-plugin"
-        mavGitUrl = mavSiteUrl + '.git'
-        mavProjectName = 'GradleMavenizer'
-        mavPublishToInternalRepo = true
-        mavRepoInternalUrl = "path/to/internal/repo"
-        mavLibraryLicenses = ["Apache-2.0":'http://www.apache.org/licenses/LICENSE-2.0.txt']
-        mavLibraryDescription = "A simple description of the project"
-    }*/
-
-    libraryDescription = 'A Custom toast for Android'
-
-    siteUrl = 'https://github.com/SubodhKumar1111996/CustomToastAndroid'
-    gitUrl = 'https://github.com/SubodhKumar1111996/CustomToastAndroid.git'
-
-    libraryVersion = '1.0.0'
-
-    //developerId = 'xyz'
-   // developerName = 'xyz'
-    //developerEmail = 'xyz@xyz.xyz'
-
-    licenseName = 'The Apache Software License, Version 2.0'
-    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
-    allLicenses = ["Apache-2.0"]
-}
 
 android {
     compileSdkVersion 29
@@ -61,7 +29,7 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
-    publishNonDefault true
+    //publishNonDefault true
 
 }
 
