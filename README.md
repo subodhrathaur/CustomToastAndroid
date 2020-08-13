@@ -23,7 +23,7 @@ Add this to your module's `build.gradle` file (make sure the version matches the
 ```gradle
 dependencies {
 	...
-	implementation 'com.github.SubodhKumar1111996:CustomToastAndroid:0.2.1'
+	 implementation 'com.github.subodhrathaur:CustomToastAndroid:0.2.2'
 }
 ```
 ## Usage
