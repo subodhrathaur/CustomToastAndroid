@@ -14,8 +14,8 @@
         android:layout_width="20dp"
         android:layout_height="20dp"
         android:layout_gravity="center"
-        android:src="@drawable/tick"
-        android:tint="@color/white" />
+        android:src="@drawable/ic_success"
+        android:tint="@color/colorWhite" />
 
     <TextView
         android:id="@+id/toast_text"
